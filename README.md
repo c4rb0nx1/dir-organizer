@@ -32,6 +32,7 @@ Adjust the folder mapping logic to save files to customized locations
 Requirements
 
 Python 3.6+
+
 watchdog module
 
 License
