@@ -6,16 +6,17 @@ Usage
 To use this script:
 
 Clone this repository or download the file_organizer.py script
-Install dependencies:
+### Install dependencies:
 
     pip install watchdog
 
-Run the script:
+### Run the script:
 ```
 python file_organizer.py
 ```
 The script will organize them into subfolders.
-Features
+
+### Features
 
 Automatically categorizes files based on extension into subfolders
 Supports categorizing into Documents, Images, PDFs, Spreadsheets etc.
@@ -24,17 +25,17 @@ Provides console output when new files are organized
 (later): Uses watchdog to monitor directory for changes
 Organizes new files immediately after they are downloaded
 
-Customization
+### Customization
 
 To add new supported file types, modify the list in the script
 Adjust the folder mapping logic to save files to customized locations
 
-Requirements
+### Requirements
 
 Python 3.6+
 
 watchdog module
 
-License
+### License
 
 This project is open source and available under the MIT License.
